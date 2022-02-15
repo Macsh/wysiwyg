@@ -1,0 +1,116 @@
+h1{
+    font-family: Verdana, sans-serif;
+}
+
+button{
+    border: none;
+    margin: 5px;
+    width: auto;
+    background-color: white;
+    font-size: 16px;
+    padding: 4px 10px;
+    position: relative;
+}
+
+button:hover{
+    background-color: #CDE7FF;
+    border-radius: 5px;
+}
+
+textarea{
+    min-width: 80%;
+    min-height: 200px;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 16px;
+    position: absolute;
+    z-index: 1;
+    top: 170px;
+}
+
+#text-edited {
+    min-width: 80%;
+    min-height: 200px;
+    padding: 3px 1.5px;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 153px;
+}
+
+/* STYLES DU TEXTAREA */
+.bold{
+    font-weight: 900;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.grey{
+    color: #ADADAD;
+}
+
+.blue{
+    color: #0085CF;
+}
+
+.small{
+    font-size: 12px;
+}
+
+.regular{
+    font-size: 18px;
+}
+
+.big{
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: underline;
+    color: purple;
+}
+
+.link:hover {
+    font-weight: 700;
+}
+
+.centerText{
+    display: table;
+    margin: 0 auto;
+}
+
+.justifyText{
+    text-align: justify;
+    display: inline-block;
+}
+
+.leftText{
+    float: left;
+}
+
+.rightText{
+    float: right;
+}
+
+.videoButton{
+    width: 240px;
+    height: 135px;
+}
+
+.imgButton{
+    width: 240px;
+    height: auto;
+}
